@@ -161,3 +161,9 @@ php artisan make:model NomeModel -mc
 - Cada feature/CRUD termina com commit
 - Mensagens em inglês no padrão: `feat:`, `fix:`, `refactor:`, `docs:`, `chore:`
 - Push após cada commit
+
+# Fluxo Git
+- Cada feature/CRUD termina com commit
+- Mensagens em **português**, sem prefixo, descritivas e curtas
+- Exemplos: "adiciona migration de products", "corrige cálculo de subtotal"
+- Push após cada commit
