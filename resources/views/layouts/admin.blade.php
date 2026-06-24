@@ -35,26 +35,30 @@
                class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
                 Categorias
             </a>
-            <a href="#"
-               class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
-                Produtos
+            <a href="{{ route('products.index') }}"
+            class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
+                      Produtos
+                </a>
+        <a href="{{ route('customers.index') }}"
+        class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
+        Clientes
             </a>
-            <a href="#"
-               class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
-                Clientes
+           <a href="{{ route('expenses.index') }}"
+            class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
+            Despesas
+                    </a>
+          <a href="{{ route('quotes.index') }}"
+            class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
+             Orçamentos
             </a>
-            <a href="#"
-               class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
-                Despesas
+            <a href="{{ route('api.docs') }}"
+            class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
+                API
             </a>
-            <a href="#"
-               class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
-                Orçamentos
-            </a>
-            <a href="#"
-               class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
-                Vendas
-            </a>
+            <<a href="{{ route('sales.index') }}"
+            class="block px-3 py-2 rounded hover:bg-indigo-50 text-gray-700 text-sm">
+             Vendas
+</a>
         </aside>
 
         <!-- Conteúdo -->
