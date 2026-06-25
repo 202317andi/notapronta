@@ -7,11 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 class Sale extends Model
 {
     protected $fillable = [
+        'user_id',
         'customer_id',
         'quote_id',
         'total',
         'payment_type',
         'sale_date',
+    ];
+
+    protected $casts = [
+        'sale_date' => 'date',
     ];
 
     public function user()

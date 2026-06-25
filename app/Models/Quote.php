@@ -7,7 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Quote extends Model
 {
     protected $fillable = [
+        'user_id',
         'customer_id',
+        'public_token',
         'status',
         'total',
         'notes',
