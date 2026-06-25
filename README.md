@@ -66,7 +66,7 @@ Pré-requisitos: PHP 8.2 ou superior, Composer 2.x, Node.js 18 ou superior e XAM
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/seu-usuario/notapronta.git
+git clone https://github.com/202317andi/notapronta.git
 cd notapronta
 
 # Instalar dependências PHP
